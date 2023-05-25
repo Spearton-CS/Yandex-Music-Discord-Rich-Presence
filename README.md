@@ -1,19 +1,11 @@
 # Yandex-Music-Discord-Rich-Presence
-The program currently has many disadvantages:
+The program currently has the following disadvantages:
 
-1. If you HAVE ALREADY STARTED LISTENING TO THE TRACK, and then opened it, then RPC will give a false time
+1. RPC may lag behind reality
 
-2. RPC may lag behind reality
+2. Large size due to WindowsSDK.NET.dll
 
-3. Large size due to WindowsSDK.NET.dll
-
-4. Sometimes track images are not displayed correctly (for example, an image of another track is shown)
-
-5. There is no button with a link to the track \ artist \ album, etc., only on Yandex Music
-
-6. There is no interface, only a tray icon with a context menu with 3 items
-
-7. Unable to configure RPC localization
+3. Sometimes track images are not displayed correctly (for example, an image of another track is shown)
 
 
 How to use the program:
@@ -24,8 +16,16 @@ How to use the program:
 
 3. Open the icon that appears on the desktop
 
-4. Look in the tray [in the taskbar there are small icons on the bottom right]
+4. That's it, you can use the program!
 
-5. Find the Discord icon there [blue] and click PCM
+How to delete a program:
 
-6. Select the items you need from the context menu
+1. Open Windows Settings
+
+2. Select Apps
+
+3. Find and select YandexMusicRPC
+
+4. Click on the context menu to the right of the program name and select delete
+
+5. That's done, but if you have enabled AutoStart, then you may still have a file for autorun! To delete it, go to C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup and delete the ymRPC_AutoStart.cmd file
