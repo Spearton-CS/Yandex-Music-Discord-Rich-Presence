@@ -1,4 +1,6 @@
 # Yandex-Music-Discord-Rich-Presence
+# [Obsolete]
+
 The program currently has the following disadvantages:
 
 1. RPC may lag behind reality
